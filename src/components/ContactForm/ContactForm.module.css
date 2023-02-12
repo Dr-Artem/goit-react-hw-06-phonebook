@@ -1,0 +1,22 @@
+.contsct_form {
+	display: flex;
+	flex-direction: column;
+	max-width: 400px;
+	border: 1px solid black;
+	padding: 10px;
+	gap: 20px;
+}
+.contsct_form > label {
+	display: flex;
+	flex-direction: column;
+	max-width: 40%;
+	gap: 10px;
+}
+
+.contsct_form > label > input:focus {
+	outline: 1px solid lightskyblue;
+}
+
+.contsct_form__submit {
+	max-width: 25%;
+}
